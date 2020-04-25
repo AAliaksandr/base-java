@@ -20,7 +20,7 @@ public class Task5 {
 
     public static int roundNumber(double number) {
         // TODO написать проверку здесь и вывести сообщение
-        int result = (int) Math.round(number);
+        int result = (int)(number + 0.5);
         System.out.println(result);
         return result;
     }
