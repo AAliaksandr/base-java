@@ -16,7 +16,7 @@ public class Task3 {
         for (int i = 1; i < num; i++) {
             if (num % i == 0) {
                 result = i;
-            }
+           }
         }
         return result;
     }
