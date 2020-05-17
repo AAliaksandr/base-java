@@ -4,7 +4,18 @@ import java.time.LocalDate;
 
 public class AccountingService extends Employee {
 
-    public AccountingService(String name, int age, LocalDate dateOfReceipt, String position) {
-        super(name, age, dateOfReceipt, position);
+
+    public AccountingService(String name, int age, LocalDate dateOfReceipt, String position, int salary, int hoursWorked) {
+        super(name, age, dateOfReceipt, position, salary, hoursWorked);
+    }
+
+    @Override
+    public int getSalaryCalculation() {
+        return super.getSalaryCalculation();
+    }
+
+    @Override
+    public void print() {
+        super.print();
     }
 }

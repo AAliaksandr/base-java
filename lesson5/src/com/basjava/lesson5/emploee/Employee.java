@@ -7,12 +7,23 @@ public abstract class Employee {
     private int age;
     private LocalDate dateOfReceipt;
     private String position;
+    private int salary;
+    private int hoursWorked;
 
-    public Employee(String name, int age, LocalDate dateOfReceipt, String position) {
+    public Employee(String name, int age, LocalDate dateOfReceipt, String position, int salary, int hoursWorked) {
         this.name = name;
         this.age = age;
         this.dateOfReceipt = dateOfReceipt;
         this.position = position;
+        this.salary = salary;
+        this.hoursWorked = hoursWorked;
+    }
+
+    public int getSalaryCalculation(){
+        return salary * hoursWorked / 22;
+    }
+    public void print(){
+        System.out.println("zp = " + getSalaryCalculation());
     }
 
     public String getName() {
@@ -47,13 +58,19 @@ public abstract class Employee {
         this.position = position;
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", dateOfReceipt=" + dateOfReceipt +
-                ", position='" + position + '\'' +
-                '}';
+    public int getSalary() {
+        return salary;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public int getHoursWorked() {
+        return hoursWorked;
+    }
+
+    public void setHoursWorked(int hoursWorked) {
+        this.hoursWorked = hoursWorked;
     }
 }

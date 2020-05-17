@@ -6,9 +6,9 @@ public class CarApp {
     public static void main(String[] args) {
         int type = getTransportType();
         if(type == 1){
-            print(TransportDB.getCars());
-        } else if (type == 2){
             print(TransportDB.getTruck());
+        } else if (type == 2){
+            print(TransportDB.getCars());
         } else {
             System.out.println("Wrong number");
         }
