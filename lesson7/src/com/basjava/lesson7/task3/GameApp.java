@@ -1,7 +1,5 @@
 package com.basjava.lesson7.task3;
 
-import com.basjava.lesson7.task3.util.ScannerUtil;
-
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -11,13 +9,13 @@ public class GameApp {
 
         boolean flag = false;
         do {
-            int playerNum = ScannerUtil.getPlayers();
+            int playerNum = Scanner.getPlayers();
 
             Game game = new Game(playerNum, 6);
 
             Set<Integer> wonNumbers = game.generateNumbers();
             Map<Integer, Player> players = game.generatePlayer();
-            Player selectedPlayer = ScannerUtil.selectPlayer(players);
+            Player selectedPlayer = Scanner.selectPlayer(players);
 
             Optional<Player> wonPlayer = game.getWonPlayer(wonNumbers, players);
             if (wonPlayer.isPresent()) {
@@ -46,6 +44,6 @@ public class GameApp {
 
     private static int playGameAgain(){
         System.out.println("Хотите сыграть еще?");
-       return ScannerUtil.getOperation();
+       return Scanner.getOperation();
     }
 }

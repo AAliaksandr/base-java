@@ -1,13 +1,10 @@
-package com.basjava.lesson7.task3.util;
+package com.basjava.lesson7.task3;
 
-import com.basjava.lesson7.task3.Player;
-
-import java.util.Arrays;
 import java.util.Map;
-import java.util.Scanner;
 
-public class ScannerUtil {
-    public static Scanner scanner = new Scanner(System.in);
+
+public class Scanner {
+    public static java.util.Scanner scanner = new java.util.Scanner(System.in);
 
     public static int getPlayers() {
         System.out.println(" Введите число игроков: ");
