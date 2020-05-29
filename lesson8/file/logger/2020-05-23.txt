@@ -1,0 +1,22 @@
+2020-05-23 19:55:34 class com.basjava.lesson8.logger.MainApp INFO Log
+2020-05-23 19:55:40 class com.basjava.lesson8.logger.MainApp INFO Log
+2020-05-23 21:15:58 class com.basjava.lesson8.Menu INFO Backup file
+2020-05-23 21:24:38 class com.basjava.lesson8.Menu INFO Restore backup test.txt
+2020-05-23 21:24:38 class com.basjava.lesson8.Menu INFO Restore backup test4.txt
+2020-05-23 21:26:53 class com.basjava.lesson8.Menu INFO Backup file D:\IdeaProjects\base-java\lesson8\file\rootDir\test.txt
+2020-05-23 21:26:53 class com.basjava.lesson8.Menu INFO Backup file D:\IdeaProjects\base-java\lesson8\file\rootDir\test4.txt
+2020-05-23 21:26:53 class com.basjava.lesson8.Menu INFO Backup file
+2020-05-23 21:27:46 class com.basjava.lesson8.Menu INFO Backup file D:\IdeaProjects\base-java\lesson8\file\rootDir\test.txt
+2020-05-23 21:27:47 class com.basjava.lesson8.Menu INFO Backup file D:\IdeaProjects\base-java\lesson8\file\rootDir\test4.txt
+2020-05-23 21:27:47 class com.basjava.lesson8.Menu INFO Backup file
+2020-05-23 21:28:47 class com.basjava.lesson8.Menu INFO Backup file test.txt
+2020-05-23 21:28:47 class com.basjava.lesson8.Menu INFO Backup file test4.txt
+2020-05-23 21:28:47 class com.basjava.lesson8.Menu INFO Backup file
+2020-05-23 21:29:52 class com.basjava.lesson8.Menu INFO Backup file java.io.FileOutputStream@22d8cfe0
+2020-05-23 21:29:52 class com.basjava.lesson8.Menu INFO Backup file java.io.FileOutputStream@22d8cfe0
+2020-05-23 21:29:52 class com.basjava.lesson8.Menu INFO Backup file
+2020-05-23 21:31:38 class com.basjava.lesson8.Menu INFO Backup file D:\IdeaProjects\base-java\lesson8\file\rootDir\test.txt
+2020-05-23 21:31:38 class com.basjava.lesson8.Menu INFO Backup file D:\IdeaProjects\base-java\lesson8\file\rootDir\test4.txt
+2020-05-23 21:32:08 class com.basjava.lesson8.Menu INFO Backup file test.txt
+2020-05-23 21:32:08 class com.basjava.lesson8.Menu INFO Backup file test4.txt
+2020-05-23 21:34:03 class com.basjava.lesson8.Menu INFO File is deleted test.txt

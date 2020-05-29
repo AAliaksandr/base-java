@@ -1,0 +1,21 @@
+2020-05-23 19:56:24 class com.basjava.lesson8.logger.MainApp INFO Log
+2020-05-24 11:37:31 class com.basjava.lesson8.Menu INFO No files for backup
+2020-05-24 11:37:31 class com.basjava.lesson8.Menu INFO No files for backup
+2020-05-24 11:44:14 class com.basjava.lesson8.Menu INFO Files backup
+2020-05-24 11:44:14 class com.basjava.lesson8.Menu INFO Files backup
+2020-05-24 11:45:31 class com.basjava.lesson8.Menu INFO Files backup
+2020-05-24 11:45:31 class com.basjava.lesson8.Menu INFO Files backup
+2020-05-24 11:46:14 class com.basjava.lesson8.Menu INFO Files backup
+2020-05-24 11:46:14 class com.basjava.lesson8.Menu INFO Files backup
+2020-05-24 11:48:01 class com.basjava.lesson8.Menu INFO Files backup [D:\IdeaProjects\base-java\lesson8\file\rootDir\test.txt, D:\IdeaProjects\base-java\lesson8\file\rootDir\test4.txt]
+2020-05-24 11:48:01 class com.basjava.lesson8.Menu INFO Files backup [D:\IdeaProjects\base-java\lesson8\file\rootDir\test.txt, D:\IdeaProjects\base-java\lesson8\file\rootDir\test4.txt]
+2020-05-24 11:48:32 class com.basjava.lesson8.Menu INFO Files backup D:\IdeaProjects\base-java\lesson8\file\rootDir\test.txt
+2020-05-24 11:48:32 class com.basjava.lesson8.Menu INFO Files backup D:\IdeaProjects\base-java\lesson8\file\rootDir\test4.txt
+2020-05-24 11:49:08 class com.basjava.lesson8.Menu INFO Files backup test.txt
+2020-05-24 11:49:08 class com.basjava.lesson8.Menu INFO Files backup test4.txt
+2020-05-24 11:49:32 class com.basjava.lesson8.Menu INFO Files backup test.txt
+2020-05-24 11:49:32 class com.basjava.lesson8.Menu INFO Files backup test4.txt
+2020-05-24 11:51:13 class com.basjava.lesson8.Menu INFO Restore backup test.txt
+2020-05-24 11:51:13 class com.basjava.lesson8.Menu INFO Restore backup test4.txt
+2020-05-24 11:54:14 class com.basjava.lesson8.Menu INFO Restore backup test.txt
+2020-05-24 11:54:14 class com.basjava.lesson8.Menu INFO Restore backup test4.txt
